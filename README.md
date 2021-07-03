@@ -22,7 +22,7 @@ pod 'MBProgressHUD-CXExtension'
 
 ## Author
 
-CXTretar, chenxuan@98du.com
+CXTretar, misscxuan@163.com
 
 ## License
 
