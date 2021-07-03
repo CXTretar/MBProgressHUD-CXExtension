@@ -1,0 +1,6 @@
+framework module MBProgressHUD_CXExtension {
+  umbrella header "MBProgressHUD-CXExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
