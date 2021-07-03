@@ -1,0 +1,16 @@
+PODS:
+  - MBProgressHUD-CXExtension (0.1.0)
+
+DEPENDENCIES:
+  - MBProgressHUD-CXExtension (from `../`)
+
+EXTERNAL SOURCES:
+  MBProgressHUD-CXExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD-CXExtension: 86c02ad495486877795a6d38617d866e12bf83ca
+
+PODFILE CHECKSUM: 2d272c3cb3ed1363c8553859728283f3e0bd9d0a
+
+COCOAPODS: 1.10.1
