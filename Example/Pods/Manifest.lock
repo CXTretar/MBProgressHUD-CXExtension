@@ -1,15 +1,22 @@
 PODS:
-  - MBProgressHUD-CXExtension (0.1.0)
+  - MBProgressHUD (1.2.0)
+  - MBProgressHUD-CXExtension (0.1.0):
+    - MBProgressHUD (~> 1.2.0)
 
 DEPENDENCIES:
   - MBProgressHUD-CXExtension (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   MBProgressHUD-CXExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MBProgressHUD-CXExtension: 86c02ad495486877795a6d38617d866e12bf83ca
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MBProgressHUD-CXExtension: d0703434115b20d9d6a2926d7207be59d2d0a194
 
 PODFILE CHECKSUM: 2d272c3cb3ed1363c8553859728283f3e0bd9d0a
 

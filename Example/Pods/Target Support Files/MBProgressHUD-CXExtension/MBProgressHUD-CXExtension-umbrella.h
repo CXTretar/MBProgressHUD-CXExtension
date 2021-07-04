@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "CXHUDConfiguration.h"
+#import "CXHUDCustomView.h"
+#import "MBProgressHUD+CXExtension.h"
 
 FOUNDATION_EXPORT double MBProgressHUD_CXExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char MBProgressHUD_CXExtensionVersionString[];
