@@ -7,6 +7,7 @@
 //
 
 #import "CXViewController.h"
+#import <MBProgressHUD_CXExtension/MBProgressHUD+CXExtension.h>
 
 @interface CXViewController ()
 
@@ -14,16 +15,12 @@
 
 @implementation CXViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [MBProgressHUD cx_showToastInView:self.view title:@"123123" icon:@"ea10" image:nil duration:1.5f mask:YES];
 }
 
 @end

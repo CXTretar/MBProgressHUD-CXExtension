@@ -8,111 +8,123 @@
 
 /* Begin PBXBuildFile section */
 		037BD60E0030F9CCDAB1C91710553DB1 /* Pods-MBProgressHUD-CXExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C437E56A7440287F33BAA144316184 /* Pods-MBProgressHUD-CXExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06F71584626602029CAEA89B5241C123 /* CXHUDConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 507055456F860D8771CA3CDA1FBAD540 /* CXHUDConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F6271FECF71D62313996525CE474EA2 /* MBProgressHUD-CXExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E4472923A7A3ADD8F8D39FFE33BFBA3 /* MBProgressHUD-CXExtension.bundle */; };
+		12A65E01F4AEC83D553E0B08D2912BC6 /* CXHUDConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B60EC8C85918451F93ED867AE912D09 /* CXHUDConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131F4AD975D7E49427C362A0844EAD6B /* CXHUDCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0AA9C7CEBA5ADE056C040FAC4CB609 /* CXHUDCustomView.m */; };
 		20A93287B18C7801A0B2970410FC45E3 /* Pods-MBProgressHUD-CXExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C60EFCCBDB4AEF3553E9B136F12E9E1B /* Pods-MBProgressHUD-CXExtension_Example-dummy.m */; };
+		2DCF91138A841FE84C026A8A84810B5B /* MBProgressHUD+CXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1AA5241AEC688FCBE5B9BE525AAAAB /* MBProgressHUD+CXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317A2812271A02C0BF3A7C49405FEC2B /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
+		39B4F8DD510485E1492979A3BEBF8725 /* MBProgressHUD+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AAD6311AAAD5881BB41DFC0EA5A34 /* MBProgressHUD+CXExtension.m */; };
 		4CC22E59B779216876FDB5DCD610AD89 /* Pods-MBProgressHUD-CXExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA93D797DC805C0320C6B9CAA29D105E /* Pods-MBProgressHUD-CXExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D63580AC20943241904A833F4B2F761 /* CXHUDConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F86749631AA876D55D6FD6494049F95E /* CXHUDConfiguration.m */; };
-		66FC26F2A2CEF94950F874F85631ADC8 /* MBProgressHUD-CXExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A7AAD11F2753CF813113A1B51E9DC /* MBProgressHUD-CXExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653B46FBDA15EF60372C899DF34580B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
 		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
 		7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1B74A9F1E73D518A5D5F76E721DB21 /* CoreGraphics.framework */; };
 		7D9C5A0D3FC3D707BC5BD214B36F9D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
-		7DFC7B7449648A100406C3B60EEFE021 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938CF83D1289EBD26969AF81794D86D0 /* MBProgressHUD-CXExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3E0D74B8DAE4D3745153C886A28B7 /* MBProgressHUD-CXExtension-dummy.m */; };
 		9FBFC5392073F3B6A22F80C4D58A317B /* Pods-MBProgressHUD-CXExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 035FFEB9D3B03A51600529251107C087 /* Pods-MBProgressHUD-CXExtension_Tests-dummy.m */; };
-		A38A23C626724F8453D8F23B13F305FC /* MBProgressHUD-CXExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E68BB123D9DE122CA1800B18C1F /* MBProgressHUD-CXExtension-dummy.m */; };
 		AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
-		BF4CEE42DE58EB6547C9C8DA17E9FC58 /* CXHUDCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF53B620378F442BB29F3699A076F099 /* CXHUDCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE6950323B899AC4DB4D736CFC1330AA /* MBProgressHUD+CXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A74C5EBEDE2185B5747BF4380D918535 /* MBProgressHUD+CXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D75A661C6B0CA2B3F41DA288815B31EA /* MBProgressHUD+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6648C3255A746B710D1796D6E6ACDD /* MBProgressHUD+CXExtension.m */; };
+		AD68B9DE78DCFEFD4FB28F5ADD5BF80F /* CXHUDCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F9F1314D00D8B583DE57AF35EAD778 /* CXHUDCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE753861EB315A1112BEA0DC5AECB84C /* CXHUDConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B4839E18F6133895FACC2214FE31F /* CXHUDConfiguration.m */; };
+		C45B833D8138A4689E853FD2CCBD943E /* MBProgressHUD-CXExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566F6077F0E132D685ECD39C0C740F64 /* MBProgressHUD-CXExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93D4A88EA4743509172555310FB336D /* icomoonfree.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2774D7407026980F5E8D55D7629FBD /* icomoonfree.ttf */; };
 		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
-		DBAC0344565C9F3C2E1DAC4C09CD7770 /* CXHUDCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA4B8F5B6B348A8F728437B66E5FED5 /* CXHUDCustomView.m */; };
 		DEF012DE9E8C04E4A2ABFEA7C034A0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
-		DF9144D6C9F995BBA638F0677AF6A6B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */; };
 		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8AE761A6233169744AE7BAC2257114 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A34E75E4433A530CC95BD54A74C23EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		9990B0B4AC72D416DCC0CE9EE266B820 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		F916A04A2D14C3F7C8E9800DDC9BA0E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23DFC3F736197DA65ECED0B1512B120F;
-			remoteInfo = "Pods-MBProgressHUD-CXExtension_Example";
-		};
-		FB3E4364004CE5FB9A62E367912FFD49 /* PBXContainerItemProxy */ = {
+		348F58E4836E32082B3E0C7DDD7CF63E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 174CC57491494BB9C3FA4F1BF0C35336;
 			remoteInfo = "MBProgressHUD-CXExtension";
 		};
+		44961B8433471ABE3E21ED7A797F400A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DFC3F736197DA65ECED0B1512B120F;
+			remoteInfo = "Pods-MBProgressHUD-CXExtension_Example";
+		};
+		57ADB72F6811223475A8756C19E132C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		CAE663D9ECDF622B938BCF244D9A6B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		E724E54357CDCD90442E7CA7308215B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0417704948299B2FAEA6706FC1D0A208;
+			remoteInfo = "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01B718B57816E4BE4D20D136B0B59C5B /* Pods-MBProgressHUD-CXExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBProgressHUD-CXExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		02EE2109C8F0CE909DC240349CC22F1E /* MBProgressHUD-CXExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-CXExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		035FFEB9D3B03A51600529251107C087 /* Pods-MBProgressHUD-CXExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUD-CXExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		046825FFCFF4DE160C61A8249F6E6BBF /* ResourceBundle-MBProgressHUD-CXExtension-MBProgressHUD-CXExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBProgressHUD-CXExtension-MBProgressHUD-CXExtension-Info.plist"; sourceTree = "<group>"; };
 		066BC700C883AF7A89AD72ED357F236D /* Pods-MBProgressHUD-CXExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD-CXExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		088996328F232BDE172DA65F489CCAFA /* MBProgressHUD-CXExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MBProgressHUD-CXExtension.modulemap"; sourceTree = "<group>"; };
 		0C1B74A9F1E73D518A5D5F76E721DB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		18CA7D3A8D9B9B0BC012A222C81BDAAA /* Pods-MBProgressHUD-CXExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUD-CXExtension_Tests-Info.plist"; sourceTree = "<group>"; };
-		1BA4B8F5B6B348A8F728437B66E5FED5 /* CXHUDCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXHUDCustomView.m; path = "MBProgressHUD-CXExtension/Classes/CXHUDCustomView.m"; sourceTree = "<group>"; };
-		21F53DF0467923B7891506E3ED09F225 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		299F066BF917ED2C2CACF2BEE45E6F81 /* Pods-MBProgressHUD-CXExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD-CXExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		32A88481A60CCE1A6FF16729EAEDCA1F /* MBProgressHUD-CXExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-CXExtension-prefix.pch"; sourceTree = "<group>"; };
+		2A1AAD6311AAAD5881BB41DFC0EA5A34 /* MBProgressHUD+CXExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+CXExtension.m"; path = "MBProgressHUD-CXExtension/Classes/MBProgressHUD+CXExtension.m"; sourceTree = "<group>"; };
 		3455FEB0AC3FF3508EDC3E118C9C98C2 /* Pods-MBProgressHUD-CXExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBProgressHUD-CXExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36C437E56A7440287F33BAA144316184 /* Pods-MBProgressHUD-CXExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBProgressHUD-CXExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		4D4B4839E18F6133895FACC2214FE31F /* CXHUDConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXHUDConfiguration.m; path = "MBProgressHUD-CXExtension/Classes/CXHUDConfiguration.m"; sourceTree = "<group>"; };
 		4E0432B132A0268620C472FF8278F005 /* Pods_MBProgressHUD_CXExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBProgressHUD_CXExtension_Tests.framework; path = "Pods-MBProgressHUD-CXExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		507055456F860D8771CA3CDA1FBAD540 /* CXHUDConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXHUDConfiguration.h; path = "MBProgressHUD-CXExtension/Classes/CXHUDConfiguration.h"; sourceTree = "<group>"; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		55B708B13E585E1AE8E67A3AA76DBA75 /* Pods-MBProgressHUD-CXExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUD-CXExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566F6077F0E132D685ECD39C0C740F64 /* MBProgressHUD-CXExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-CXExtension-umbrella.h"; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		67E8F10099FAB197CF7D4ADD4416B8F7 /* Pods-MBProgressHUD-CXExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBProgressHUD-CXExtension_Example.modulemap"; sourceTree = "<group>"; };
 		6A7615942A398F0E3D503C9F26C11ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B60EC8C85918451F93ED867AE912D09 /* CXHUDConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXHUDConfiguration.h; path = "MBProgressHUD-CXExtension/Classes/CXHUDConfiguration.h"; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		6E4472923A7A3ADD8F8D39FFE33BFBA3 /* MBProgressHUD-CXExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MBProgressHUD-CXExtension.bundle"; path = "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC3E0D74B8DAE4D3745153C886A28B7 /* MBProgressHUD-CXExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-CXExtension-dummy.m"; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		79A44D0B47C61EF810376FF241B80DF8 /* MBProgressHUD-CXExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-CXExtension-Info.plist"; sourceTree = "<group>"; };
-		80FA164F4250601FC1BF433E952E13FD /* MBProgressHUD-CXExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-CXExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		733336B981FD064FF3CB2164906451AD /* MBProgressHUD-CXExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "MBProgressHUD-CXExtension.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C0AA9C7CEBA5ADE056C040FAC4CB609 /* CXHUDCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXHUDCustomView.m; path = "MBProgressHUD-CXExtension/Classes/CXHUDCustomView.m"; sourceTree = "<group>"; };
+		89EB4A78E4C936A627C8709E18EB6073 /* MBProgressHUD-CXExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-CXExtension-prefix.pch"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915064AF31D803CD886BDB2BFD71D8A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		922551815AB89F465F56A6480CF66AC5 /* Pods-MBProgressHUD-CXExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBProgressHUD-CXExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		94AA75226296C0B728A1759E2171AB4F /* Pods-MBProgressHUD-CXExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBProgressHUD-CXExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99C02E55AF665C6BDDC722DEB6E2A8DF /* MBProgressHUD-CXExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-CXExtension.release.xcconfig"; sourceTree = "<group>"; };
 		9B0627AE0B6E29069E0043A14A649B26 /* Pods-MBProgressHUD-CXExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD-CXExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F6648C3255A746B710D1796D6E6ACDD /* MBProgressHUD+CXExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+CXExtension.m"; path = "MBProgressHUD-CXExtension/Classes/MBProgressHUD+CXExtension.m"; sourceTree = "<group>"; };
-		A39A7AAD11F2753CF813113A1B51E9DC /* MBProgressHUD-CXExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-CXExtension-umbrella.h"; sourceTree = "<group>"; };
-		A74C5EBEDE2185B5747BF4380D918535 /* MBProgressHUD+CXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+CXExtension.h"; path = "MBProgressHUD-CXExtension/Classes/MBProgressHUD+CXExtension.h"; sourceTree = "<group>"; };
+		9F4C9AA5A8210B37860AC71755D9F348 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A78CA3FC92432611C5CA2DE5197C9D13 /* MBProgressHUD_CXExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD_CXExtension.framework; path = "MBProgressHUD-CXExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFB249EF47C4DF761EFE84F9119C798 /* MBProgressHUD-CXExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "MBProgressHUD-CXExtension.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF53B620378F442BB29F3699A076F099 /* CXHUDCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXHUDCustomView.h; path = "MBProgressHUD-CXExtension/Classes/CXHUDCustomView.h"; sourceTree = "<group>"; };
+		A7F9F1314D00D8B583DE57AF35EAD778 /* CXHUDCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CXHUDCustomView.h; path = "MBProgressHUD-CXExtension/Classes/CXHUDCustomView.h"; sourceTree = "<group>"; };
 		BA93D797DC805C0320C6B9CAA29D105E /* Pods-MBProgressHUD-CXExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBProgressHUD-CXExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BBFC172149A743ADC1EA94A0D884D166 /* MBProgressHUD-CXExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-CXExtension-Info.plist"; sourceTree = "<group>"; };
 		BDFBDDE2821AD7E96B2FC1EE036E078B /* Pods-MBProgressHUD-CXExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUD-CXExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C60EFCCBDB4AEF3553E9B136F12E9E1B /* Pods-MBProgressHUD-CXExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUD-CXExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		CD1AA5241AEC688FCBE5B9BE525AAAAB /* MBProgressHUD+CXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+CXExtension.h"; path = "MBProgressHUD-CXExtension/Classes/MBProgressHUD+CXExtension.h"; sourceTree = "<group>"; };
 		D8FF3FFEBDF00474C38A88A0A71D120E /* Pods_MBProgressHUD_CXExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBProgressHUD_CXExtension_Example.framework; path = "Pods-MBProgressHUD-CXExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA3554995776B623998C4FACEA6833A /* MBProgressHUD-CXExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MBProgressHUD-CXExtension.modulemap"; sourceTree = "<group>"; };
 		DE8AE761A6233169744AE7BAC2257114 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		E2AC598DEA99DB6662DD67B261CFEAAA /* MBProgressHUD-CXExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-CXExtension.release.xcconfig"; sourceTree = "<group>"; };
-		E5A3BE681A6F14DFE57B0C96D139C44C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E6702283F870EB3A4FA2ED97159D8DDD /* Pods-MBProgressHUD-CXExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD-CXExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0649E68BB123D9DE122CA1800B18C1F /* MBProgressHUD-CXExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-CXExtension-dummy.m"; sourceTree = "<group>"; };
+		EE2774D7407026980F5E8D55D7629FBD /* icomoonfree.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = icomoonfree.ttf; path = "MBProgressHUD-CXExtension/Assets/icomoonfree.ttf"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		F86749631AA876D55D6FD6494049F95E /* CXHUDConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CXHUDConfiguration.m; path = "MBProgressHUD-CXExtension/Classes/CXHUDConfiguration.m"; sourceTree = "<group>"; };
 		FC76C39EAC7B9653FA981032EABBDDC8 /* Pods-MBProgressHUD-CXExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBProgressHUD-CXExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,15 +137,6 @@
 				7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */,
 				AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */,
 				F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C195454DED56C078588549B0CD4EAD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF9144D6C9F995BBA638F0677AF6A6B5 /* Foundation.framework in Frameworks */,
-				7DFC7B7449648A100406C3B60EEFE021 /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +156,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEF739CC9E0F638CCF09B9435F85C6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653B46FBDA15EF60372C899DF34580B9 /* Foundation.framework in Frameworks */,
+				317A2812271A02C0BF3A7C49405FEC2B /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318F74B1FB2C14C39B11692063536A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -165,10 +184,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3540E8475DC93E3F6371E0154AD1881D /* Development Pods */ = {
+		35FAD1AFB21DBF51DED6256C2633D1C4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ABE1139532341A8C5D3C206B0F9960CF /* MBProgressHUD-CXExtension */,
+				58C9CAEDE395639CC5B952A9E72A5677 /* MBProgressHUD-CXExtension */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -197,14 +216,31 @@
 			path = "Target Support Files/Pods-MBProgressHUD-CXExtension_Tests";
 			sourceTree = "<group>";
 		};
-		660CD8DAFD6B516BA3B82C9B198DE9C6 /* Pod */ = {
+		5030679E8555B67E500BC9D82144DFD0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E5A3BE681A6F14DFE57B0C96D139C44C /* LICENSE */,
-				AAFB249EF47C4DF761EFE84F9119C798 /* MBProgressHUD-CXExtension.podspec */,
-				21F53DF0467923B7891506E3ED09F225 /* README.md */,
+				9F4C9AA5A8210B37860AC71755D9F348 /* LICENSE */,
+				733336B981FD064FF3CB2164906451AD /* MBProgressHUD-CXExtension.podspec */,
+				915064AF31D803CD886BDB2BFD71D8A1 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		58C9CAEDE395639CC5B952A9E72A5677 /* MBProgressHUD-CXExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6B60EC8C85918451F93ED867AE912D09 /* CXHUDConfiguration.h */,
+				4D4B4839E18F6133895FACC2214FE31F /* CXHUDConfiguration.m */,
+				A7F9F1314D00D8B583DE57AF35EAD778 /* CXHUDCustomView.h */,
+				7C0AA9C7CEBA5ADE056C040FAC4CB609 /* CXHUDCustomView.m */,
+				EE2774D7407026980F5E8D55D7629FBD /* icomoonfree.ttf */,
+				CD1AA5241AEC688FCBE5B9BE525AAAAB /* MBProgressHUD+CXExtension.h */,
+				2A1AAD6311AAAD5881BB41DFC0EA5A34 /* MBProgressHUD+CXExtension.m */,
+				5030679E8555B67E500BC9D82144DFD0 /* Pod */,
+				F4C76BEE0F02E163C9A75C2FB62EB9FF /* Support Files */,
+			);
+			name = "MBProgressHUD-CXExtension";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -228,21 +264,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A96A9B2DCCA5C93ADE35400D3F05358A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				088996328F232BDE172DA65F489CCAFA /* MBProgressHUD-CXExtension.modulemap */,
-				F0649E68BB123D9DE122CA1800B18C1F /* MBProgressHUD-CXExtension-dummy.m */,
-				79A44D0B47C61EF810376FF241B80DF8 /* MBProgressHUD-CXExtension-Info.plist */,
-				32A88481A60CCE1A6FF16729EAEDCA1F /* MBProgressHUD-CXExtension-prefix.pch */,
-				A39A7AAD11F2753CF813113A1B51E9DC /* MBProgressHUD-CXExtension-umbrella.h */,
-				80FA164F4250601FC1BF433E952E13FD /* MBProgressHUD-CXExtension.debug.xcconfig */,
-				E2AC598DEA99DB6662DD67B261CFEAAA /* MBProgressHUD-CXExtension.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MBProgressHUD-CXExtension";
-			sourceTree = "<group>";
-		};
 		AB9224D442093AA5FF004959579229DF /* Pods-MBProgressHUD-CXExtension_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,26 +281,11 @@
 			path = "Target Support Files/Pods-MBProgressHUD-CXExtension_Example";
 			sourceTree = "<group>";
 		};
-		ABE1139532341A8C5D3C206B0F9960CF /* MBProgressHUD-CXExtension */ = {
-			isa = PBXGroup;
-			children = (
-				507055456F860D8771CA3CDA1FBAD540 /* CXHUDConfiguration.h */,
-				F86749631AA876D55D6FD6494049F95E /* CXHUDConfiguration.m */,
-				AF53B620378F442BB29F3699A076F099 /* CXHUDCustomView.h */,
-				1BA4B8F5B6B348A8F728437B66E5FED5 /* CXHUDCustomView.m */,
-				A74C5EBEDE2185B5747BF4380D918535 /* MBProgressHUD+CXExtension.h */,
-				9F6648C3255A746B710D1796D6E6ACDD /* MBProgressHUD+CXExtension.m */,
-				660CD8DAFD6B516BA3B82C9B198DE9C6 /* Pod */,
-				A96A9B2DCCA5C93ADE35400D3F05358A /* Support Files */,
-			);
-			name = "MBProgressHUD-CXExtension";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B2345C8201937FF562310B369D450EE5 /* Products */ = {
+		AC81B2D79BEEA25123FDCD63A309009E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				6E4472923A7A3ADD8F8D39FFE33BFBA3 /* MBProgressHUD-CXExtension.bundle */,
 				A78CA3FC92432611C5CA2DE5197C9D13 /* MBProgressHUD_CXExtension.framework */,
 				D8FF3FFEBDF00474C38A88A0A71D120E /* Pods_MBProgressHUD_CXExtension_Example.framework */,
 				4E0432B132A0268620C472FF8278F005 /* Pods_MBProgressHUD_CXExtension_Tests.framework */,
@@ -315,28 +321,33 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3540E8475DC93E3F6371E0154AD1881D /* Development Pods */,
+				35FAD1AFB21DBF51DED6256C2633D1C4 /* Development Pods */,
 				CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */,
 				3F242479102E24C5847AB040CB8095A8 /* Pods */,
-				B2345C8201937FF562310B369D450EE5 /* Products */,
+				AC81B2D79BEEA25123FDCD63A309009E /* Products */,
 				1B67650B4F755A245D84A8786BA539B3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		F4C76BEE0F02E163C9A75C2FB62EB9FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3554995776B623998C4FACEA6833A /* MBProgressHUD-CXExtension.modulemap */,
+				6FC3E0D74B8DAE4D3745153C886A28B7 /* MBProgressHUD-CXExtension-dummy.m */,
+				BBFC172149A743ADC1EA94A0D884D166 /* MBProgressHUD-CXExtension-Info.plist */,
+				89EB4A78E4C936A627C8709E18EB6073 /* MBProgressHUD-CXExtension-prefix.pch */,
+				566F6077F0E132D685ECD39C0C740F64 /* MBProgressHUD-CXExtension-umbrella.h */,
+				02EE2109C8F0CE909DC240349CC22F1E /* MBProgressHUD-CXExtension.debug.xcconfig */,
+				99C02E55AF665C6BDDC722DEB6E2A8DF /* MBProgressHUD-CXExtension.release.xcconfig */,
+				046825FFCFF4DE160C61A8249F6E6BBF /* ResourceBundle-MBProgressHUD-CXExtension-MBProgressHUD-CXExtension-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MBProgressHUD-CXExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2580E022589D18F3AD398CFF26BC6263 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06F71584626602029CAEA89B5241C123 /* CXHUDConfiguration.h in Headers */,
-				BF4CEE42DE58EB6547C9C8DA17E9FC58 /* CXHUDCustomView.h in Headers */,
-				CE6950323B899AC4DB4D736CFC1330AA /* MBProgressHUD+CXExtension.h in Headers */,
-				66FC26F2A2CEF94950F874F85631ADC8 /* MBProgressHUD-CXExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6749E04E62D66DAE4C254EC821FE64DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,22 +373,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1C3066B9C4191EC4C48D884BC4A9649 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A65E01F4AEC83D553E0B08D2912BC6 /* CXHUDConfiguration.h in Headers */,
+				AD68B9DE78DCFEFD4FB28F5ADD5BF80F /* CXHUDCustomView.h in Headers */,
+				2DCF91138A841FE84C026A8A84810B5B /* MBProgressHUD+CXExtension.h in Headers */,
+				C45B833D8138A4689E853FD2CCBD943E /* MBProgressHUD-CXExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		174CC57491494BB9C3FA4F1BF0C35336 /* MBProgressHUD-CXExtension */ = {
+		0417704948299B2FAEA6706FC1D0A208 /* MBProgressHUD-CXExtension-MBProgressHUD-CXExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58F7EFB7885D720A2CE4668616955E48 /* Build configuration list for PBXNativeTarget "MBProgressHUD-CXExtension" */;
+			buildConfigurationList = 65CFEF8CC01805661384E2F73E660147 /* Build configuration list for PBXNativeTarget "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension" */;
 			buildPhases = (
-				2580E022589D18F3AD398CFF26BC6263 /* Headers */,
-				D4304D0321F1BA502F9E408B662D7D94 /* Sources */,
-				5C195454DED56C078588549B0CD4EAD8 /* Frameworks */,
-				225FEDC894B604CF713384E90BE5E5B9 /* Resources */,
+				062D4D449B7E2F85F8F4E623C014AAE9 /* Sources */,
+				F318F74B1FB2C14C39B11692063536A1 /* Frameworks */,
+				3A26C3F3D08D992A4317244E381F501D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F8BE7824A3552534D44E207C53D95B13 /* PBXTargetDependency */,
+			);
+			name = "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension";
+			productName = "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension";
+			productReference = 6E4472923A7A3ADD8F8D39FFE33BFBA3 /* MBProgressHUD-CXExtension.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		174CC57491494BB9C3FA4F1BF0C35336 /* MBProgressHUD-CXExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E84BA33746D47BBD2214E5CFCE91C9 /* Build configuration list for PBXNativeTarget "MBProgressHUD-CXExtension" */;
+			buildPhases = (
+				D1C3066B9C4191EC4C48D884BC4A9649 /* Headers */,
+				7020822F01CD8946C8BA309093A26D99 /* Sources */,
+				DEF739CC9E0F638CCF09B9435F85C6E4 /* Frameworks */,
+				B063EDB0D80A3DFB791B6BDB6C8A10A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D4F94FFC76ABE0F9F4C3F3EF801841 /* PBXTargetDependency */,
+				99E7E2BED68D8208DAAFB2752B1E631D /* PBXTargetDependency */,
 			);
 			name = "MBProgressHUD-CXExtension";
 			productName = "MBProgressHUD-CXExtension";
@@ -396,8 +436,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				BFAB0D57FB3EEBECBD7887F18BB56BA6 /* PBXTargetDependency */,
-				83C5ECDCF67C7C84C815F4D558C78367 /* PBXTargetDependency */,
+				9C5C1BC39AC051711E0CF73DF88B1A6A /* PBXTargetDependency */,
+				2857968EF2DB9EE71A61988DC87D35C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-MBProgressHUD-CXExtension_Example";
 			productName = "Pods-MBProgressHUD-CXExtension_Example";
@@ -416,7 +456,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B2B77326BD3B403AE278CBCE7E62B0CE /* PBXTargetDependency */,
+				862B5A9EAD71A3EF17059875937644C9 /* PBXTargetDependency */,
 			);
 			name = "Pods-MBProgressHUD-CXExtension_Tests";
 			productName = "Pods-MBProgressHUD-CXExtension_Tests";
@@ -459,12 +499,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B2345C8201937FF562310B369D450EE5 /* Products */;
+			productRefGroup = AC81B2D79BEEA25123FDCD63A309009E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				174CC57491494BB9C3FA4F1BF0C35336 /* MBProgressHUD-CXExtension */,
+				0417704948299B2FAEA6706FC1D0A208 /* MBProgressHUD-CXExtension-MBProgressHUD-CXExtension */,
 				23DFC3F736197DA65ECED0B1512B120F /* Pods-MBProgressHUD-CXExtension_Example */,
 				6B606E110B3465CD0613AE808372F1F8 /* Pods-MBProgressHUD-CXExtension_Tests */,
 			);
@@ -472,13 +513,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		225FEDC894B604CF713384E90BE5E5B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3384828CEEAAE9E8DC8D2778924EA218 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,10 +520,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A26C3F3D08D992A4317244E381F501D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93D4A88EA4743509172555310FB336D /* icomoonfree.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B063EDB0D80A3DFB791B6BDB6C8A10A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6271FECF71D62313996525CE474EA2 /* MBProgressHUD-CXExtension.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,11 +553,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		062D4D449B7E2F85F8F4E623C014AAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D65DA99909DAD37F446BDA7ABD96FAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20A93287B18C7801A0B2970410FC45E3 /* Pods-MBProgressHUD-CXExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7020822F01CD8946C8BA309093A26D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE753861EB315A1112BEA0DC5AECB84C /* CXHUDConfiguration.m in Sources */,
+				131F4AD975D7E49427C362A0844EAD6B /* CXHUDCustomView.m in Sources */,
+				39B4F8DD510485E1492979A3BEBF8725 /* MBProgressHUD+CXExtension.m in Sources */,
+				938CF83D1289EBD26969AF81794D86D0 /* MBProgressHUD-CXExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,17 +585,6 @@
 			files = (
 				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
 				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4304D0321F1BA502F9E408B662D7D94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D63580AC20943241904A833F4B2F761 /* CXHUDConfiguration.m in Sources */,
-				DBAC0344565C9F3C2E1DAC4C09CD7770 /* CXHUDCustomView.m in Sources */,
-				D75A661C6B0CA2B3F41DA288815B31EA /* MBProgressHUD+CXExtension.m in Sources */,
-				A38A23C626724F8453D8F23B13F305FC /* MBProgressHUD-CXExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,29 +599,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83C5ECDCF67C7C84C815F4D558C78367 /* PBXTargetDependency */ = {
+		2857968EF2DB9EE71A61988DC87D35C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MBProgressHUD-CXExtension";
 			target = 174CC57491494BB9C3FA4F1BF0C35336 /* MBProgressHUD-CXExtension */;
-			targetProxy = FB3E4364004CE5FB9A62E367912FFD49 /* PBXContainerItemProxy */;
+			targetProxy = 348F58E4836E32082B3E0C7DDD7CF63E /* PBXContainerItemProxy */;
 		};
-		B2B77326BD3B403AE278CBCE7E62B0CE /* PBXTargetDependency */ = {
+		63D4F94FFC76ABE0F9F4C3F3EF801841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = CAE663D9ECDF622B938BCF244D9A6B7F /* PBXContainerItemProxy */;
+		};
+		862B5A9EAD71A3EF17059875937644C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MBProgressHUD-CXExtension_Example";
 			target = 23DFC3F736197DA65ECED0B1512B120F /* Pods-MBProgressHUD-CXExtension_Example */;
-			targetProxy = F916A04A2D14C3F7C8E9800DDC9BA0E7 /* PBXContainerItemProxy */;
+			targetProxy = 44961B8433471ABE3E21ED7A797F400A /* PBXContainerItemProxy */;
 		};
-		BFAB0D57FB3EEBECBD7887F18BB56BA6 /* PBXTargetDependency */ = {
+		99E7E2BED68D8208DAAFB2752B1E631D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension";
+			target = 0417704948299B2FAEA6706FC1D0A208 /* MBProgressHUD-CXExtension-MBProgressHUD-CXExtension */;
+			targetProxy = E724E54357CDCD90442E7CA7308215B2 /* PBXContainerItemProxy */;
+		};
+		9C5C1BC39AC051711E0CF73DF88B1A6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 4A34E75E4433A530CC95BD54A74C23EA /* PBXContainerItemProxy */;
-		};
-		F8BE7824A3552534D44E207C53D95B13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 9990B0B4AC72D416DCC0CE9EE266B820 /* PBXContainerItemProxy */;
+			targetProxy = 57ADB72F6811223475A8756C19E132C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -635,37 +698,6 @@
 			};
 			name = Debug;
 		};
-		41C0167B27DCA59D04D1D02C6DBEF8C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2AC598DEA99DB6662DD67B261CFEAAA /* MBProgressHUD-CXExtension.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-CXExtension/MBProgressHUD-CXExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD-CXExtension/MBProgressHUD-CXExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD-CXExtension/MBProgressHUD-CXExtension.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD_CXExtension;
-				PRODUCT_NAME = MBProgressHUD_CXExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		614A80F60599ED0070790E0A8375317D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B0627AE0B6E29069E0043A14A649B26 /* Pods-MBProgressHUD-CXExtension_Example.debug.xcconfig */;
@@ -730,6 +762,52 @@
 			};
 			name = Debug;
 		};
+		7D49D598193D3A146403CAAE1BD68DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C02E55AF665C6BDDC722DEB6E2A8DF /* MBProgressHUD-CXExtension.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBProgressHUD-CXExtension";
+				IBSC_MODULE = MBProgressHUD_CXExtension;
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD-CXExtension/ResourceBundle-MBProgressHUD-CXExtension-MBProgressHUD-CXExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "MBProgressHUD-CXExtension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7D787308C61238C1C94BF4A4A145F3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EE2109C8F0CE909DC240349CC22F1E /* MBProgressHUD-CXExtension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-CXExtension/MBProgressHUD-CXExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD-CXExtension/MBProgressHUD-CXExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD-CXExtension/MBProgressHUD-CXExtension.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD_CXExtension;
+				PRODUCT_NAME = MBProgressHUD_CXExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9836FD3FA1DEAFEE89DD18D2A1B620E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
@@ -757,6 +835,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2E25BF7DBC0E43F62BD1AF79A3E2704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EE2109C8F0CE909DC240349CC22F1E /* MBProgressHUD-CXExtension.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBProgressHUD-CXExtension";
+				IBSC_MODULE = MBProgressHUD_CXExtension;
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD-CXExtension/ResourceBundle-MBProgressHUD-CXExtension-MBProgressHUD-CXExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "MBProgressHUD-CXExtension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -919,9 +1013,9 @@
 			};
 			name = Release;
 		};
-		DA0775920138DAB6D210CA9FCB93B1DA /* Debug */ = {
+		E1740054409A25F120817AC75C93A420 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80FA164F4250601FC1BF433E952E13FD /* MBProgressHUD-CXExtension.debug.xcconfig */;
+			baseConfigurationReference = 99C02E55AF665C6BDDC722DEB6E2A8DF /* MBProgressHUD-CXExtension.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -944,10 +1038,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -979,11 +1074,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58F7EFB7885D720A2CE4668616955E48 /* Build configuration list for PBXNativeTarget "MBProgressHUD-CXExtension" */ = {
+		65CFEF8CC01805661384E2F73E660147 /* Build configuration list for PBXNativeTarget "MBProgressHUD-CXExtension-MBProgressHUD-CXExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0775920138DAB6D210CA9FCB93B1DA /* Debug */,
-				41C0167B27DCA59D04D1D02C6DBEF8C9 /* Release */,
+				A2E25BF7DBC0E43F62BD1AF79A3E2704 /* Debug */,
+				7D49D598193D3A146403CAAE1BD68DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -993,6 +1088,15 @@
 			buildConfigurations = (
 				9836FD3FA1DEAFEE89DD18D2A1B620E6 /* Debug */,
 				A763B21283BD8D5995D49BF75ADB3CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E84BA33746D47BBD2214E5CFCE91C9 /* Build configuration list for PBXNativeTarget "MBProgressHUD-CXExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D787308C61238C1C94BF4A4A145F3C0 /* Debug */,
+				E1740054409A25F120817AC75C93A420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,6 +11,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CXHUDCustomView : UIView
 
+- (instancetype)initWithTitle:(NSString *)title
+                         icon:(NSString *)icon
+                        image:(NSString * _Nullable)image
+                    isLoading:(BOOL)isLoading;
+
 @end
 
 NS_ASSUME_NONNULL_END

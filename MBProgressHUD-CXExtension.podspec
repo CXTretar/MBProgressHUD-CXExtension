@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/CXTretar/MBProgressHUD-CXExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'CXTretar' => 'chenxuan@98du.com' }
+  s.author           = { 'CXTretar' => 'misscxuan@163.com' }
   s.source           = { :git => 'https://github.com/CXTretar/MBProgressHUD-CXExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MBProgressHUD-CXExtension/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MBProgressHUD-CXExtension' => ['MBProgressHUD-CXExtension/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MBProgressHUD-CXExtension' => ['MBProgressHUD-CXExtension/Assets/*.{png,ttf}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
