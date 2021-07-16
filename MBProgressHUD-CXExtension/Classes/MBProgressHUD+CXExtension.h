@@ -18,23 +18,23 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)cx_showLoadingInViewWithTitle:(NSString *)title mask:(BOOL)mask;
 
 + (void)cx_showToastInView:(UIView *)view
-                      title:(NSString *)title
-                       icon:(NSString *)icon
-                      image:(NSString *)image
-                   duration:(NSTimeInterval)duration
-                       mask:(BOOL)mask;
+                     title:(NSString *)title
+                      icon:(NSString * _Nullable)icon
+                     image:(UIImage  * _Nullable)image
+                  duration:(NSTimeInterval)duration
+                      mask:(BOOL)mask;
 
 + (void)cx_showToastInWindowWithTitle:(NSString *)title
-                                  icon:(NSString *)icon
-                                 image:(NSString *)image
-                              duration:(NSTimeInterval)duration
-                                  mask:(BOOL)mask ;
+                                 icon:(NSString * _Nullable)icon
+                                image:(UIImage  * _Nullable)image
+                             duration:(NSTimeInterval)duration
+                                 mask:(BOOL)mask ;
 
 + (void)cx_showToastInViewWithTitle:(NSString *)title
-                                icon:(NSString *)icon
-                               image:(NSString *)image
-                            duration:(NSTimeInterval)duration
-                                mask:(BOOL)mask;
+                               icon:(NSString * _Nullable)icon
+                              image:(UIImage  * _Nullable)image
+                           duration:(NSTimeInterval)duration
+                               mask:(BOOL)mask;
 + (void)cx_hideHUD;
 
 @end

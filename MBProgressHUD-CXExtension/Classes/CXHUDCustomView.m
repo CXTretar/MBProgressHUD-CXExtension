@@ -13,7 +13,7 @@
 
 @property (nonatomic, copy) NSString *icon;
 @property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) NSString *image;
+@property (nonatomic, strong) UIImage *image;
 @property (nonatomic, assign) BOOL isLoading;
 
 @property (nonatomic, strong) UILabel *titleLabel;
@@ -53,16 +53,17 @@
 
 #pragma mark - 🚑 LifeCycle
 
-- (instancetype)initWithTitle:(NSString *)title icon:(NSString *)icon image:(NSString *)image isLoading:(BOOL)isLoading {
+- (instancetype)initWithTitle:(NSString *)title icon:(NSString *)icon image:(UIImage *)image isLoading:(BOOL)isLoading {
     self = [super init];
     if (self) {
         self.layer.cornerRadius = 16;
         self.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7];
         self.title = title;
         self.icon = icon;
+        self.image = image;
         self.isLoading = isLoading;
         
-        [self __setupSubView];
+        [self __setupSubViews];
         
         if (isLoading) {
             [self __startAnimating];
@@ -128,8 +129,8 @@
 
 #pragma mark - 🚲 Private - Setup
 
-- (void)__setupSubView {
-    if (self.icon.length || self.image.length || self.isLoading) {
+- (void)__setupSubViews {
+    if (self.icon.length || self.image || self.isLoading) {
         [self __setupTextAndIcon];
     }else {
         [self __setupOnlyText];
@@ -160,16 +161,16 @@
     // 修正文本宽度
     size.width = size.width < kCXHUDToastTextMinWidth ? kCXHUDToastTextMinWidth : size.width;
     size.width = size.width > kCXHUDToastTextMaxWidth - 5 ? kCXHUDToastTextMaxWidth : size.width;
-    self.titleLabel.frame = CGRectMake(kCXHUDToastMargin, kCXHUDToastMargin + kCXHUDToastIconSize, size.width, size.height);
+    self.titleLabel.frame = CGRectMake(kCXHUDToastMargin, kCXHUDToastMargin * 2 + kCXHUDToastIconSize, size.width, size.height);
     [self addSubview:self.titleLabel];
     
     // 计算 ToastView 大小
     self.contentWidth = size.width + kCXHUDToastMargin * 2;
-    self.contentHeight = size.height + kCXHUDToastMargin + kCXHUDToastMargin * 2 + kCXHUDToastIconSize;
+    self.contentHeight = size.height + kCXHUDToastMargin + kCXHUDToastMargin * 3 + kCXHUDToastIconSize;
     self.frame = CGRectMake(0, 0, self.contentWidth, self.contentHeight);
     
     // 设置图片
-    if (self.image.length) {
+    if (self.image) {
         
     }else if (self.icon.length) {
         

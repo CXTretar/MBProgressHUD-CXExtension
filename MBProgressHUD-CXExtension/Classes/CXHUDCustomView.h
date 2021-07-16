@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithTitle:(NSString *)title
                          icon:(NSString *)icon
-                        image:(NSString * _Nullable)image
+                        image:(UIImage * _Nullable)image
                     isLoading:(BOOL)isLoading;
 
 @end

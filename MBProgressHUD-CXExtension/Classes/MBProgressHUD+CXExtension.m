@@ -32,7 +32,7 @@
 + (void)cx_showToastInView:(UIView *)view
                       title:(NSString *)title
                        icon:(NSString *)icon
-                      image:(NSString *)image
+                     image:(UIImage *)image
                    duration:(NSTimeInterval)duration
                        mask:(BOOL)mask {
     [self createToastHUDWithView:view title:title icon:icon image:image duration:duration mask:mask];
@@ -40,7 +40,7 @@
 
 + (void)cx_showToastInWindowWithTitle:(NSString *)title
                                   icon:(NSString *)icon
-                                 image:(NSString *)image
+                                image:(UIImage *)image
                               duration:(NSTimeInterval)duration
                                   mask:(BOOL)mask {
     [self showToastTitle:title icon:icon image:image duration:duration isWindow:YES mask:mask];
@@ -48,7 +48,7 @@
 
 + (void)cx_showToastInViewWithTitle:(NSString *)title
                                 icon:(NSString *)icon
-                               image:(NSString *)image
+                              image:(UIImage *)image
                             duration:(NSTimeInterval)duration
                                 mask:(BOOL)mask {
     [self showToastTitle:title icon:icon image:image duration:duration isWindow:NO mask:mask];
@@ -90,7 +90,7 @@
 + (MBProgressHUD *)createToastHUDWithView:(UIView *)view
                                     title:(NSString *)title
                                      icon:(NSString *)icon
-                                    image:(NSString *)image
+                                    image:(UIImage *)image
                                  duration:(NSTimeInterval)duration
                                      mask:(BOOL)mask {
     MBProgressHUD *hud = [self createCustomHUDWithView:view title:title mask:mask];
@@ -103,7 +103,7 @@
 
 + (void)showToastTitle:(NSString *)title
                   icon:(NSString *)icon
-                 image:(NSString *)image
+                 image:(UIImage *)image
               duration:(NSTimeInterval)duration
               isWindow:(BOOL)isWindow
                   mask:(BOOL)mask {
